@@ -29,6 +29,9 @@
 	typedef unsigned char byte;
 	#define printf_P printf
 	#define PSTR(x) (x)
+#elif defined ( ESP8266 )
+	#include <pgmspace.h>
+	#define PSTR(x) (x)
 #else
 	#include <avr/pgmspace.h>
 #endif
