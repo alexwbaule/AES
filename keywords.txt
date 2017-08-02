@@ -1,7 +1,51 @@
+#######################################
+# Syntax Coloring Map For AES
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+AES	KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
 AES KEYWORD1
-set_key KEYWORD2
-clean KEYWORD2
-encrypt KEYWORD2
-decrypt KEYWORD2
-cbc_encrypt KEYWORD2
-cbc_decrypt KEYWORD2
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+set_key	KEYWORD2
+clean	KEYWORD2
+copy_n_bytes	KEYWORD2
+encrypt	KEYWORD2
+cbc_encrypt	KEYWORD2
+decrypt	KEYWORD2
+cbc_decrypt	KEYWORD2
+set_IV	KEYWORD2
+iv_inc	KEYWORD2
+get_size	KEYWORD2
+get_IV	KEYWORD2
+calc_size_n_pad	KEYWORD2
+padPlaintext	KEYWORD2
+CheckPad	KEYWORD2
+printArray	KEYWORD2
+do_aes_encrypt	KEYWORD2
+do_aes_decrypt	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+N_ROW	LITERAL1
+N_COL	LITERAL1
+N_BLOCK	LITERAL1
+N_MAX_ROUNDS	LITERAL1
+KEY_SCHEDULE_BYTES	LITERAL1
+SUCCESS	LITERAL1
+FAILURE	LITERAL1
+
